@@ -1,0 +1,16 @@
+{
+  "name": "notion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Myshuniaiev/notion.git",
+  "author": "Oleksii Myshuniaiev <oleksii.myshuniaiev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "scripts": {
+    "start-server": "cd server && yarn start",
+    "start-client": "cd client && yarn start",
+    "start": "concurrently \"yarn run start-server\" \"yarn run start-client\""
+  }
+}
