@@ -18,7 +18,7 @@ Notion is a powerful productivity tool designed to help you organize your notes,
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/notion.git
+   git clone https://github.com/Myshuniaiev/notion.git
    ```
 
 2. Install dependencies:
